@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "932559523575",
+    "project_id": "emre-dursun",
+    "storage_bucket": "emre-dursun.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932559523575:android:afadecb2f8584421670df2",
+        "android_client_info": {
+          "package_name": "com.example.fotosharefirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "932559523575-s5t59r3teijm2n7oq80f7kt5n5lhp603.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkE_FaMj3L1ZoE7zaCupkLEQspbF4-_zI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "932559523575-s5t59r3teijm2n7oq80f7kt5n5lhp603.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KullaniciGirisiActivity">
+
+    <Button
+        android:id="@+id/girisYapBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="99dp"
+        android:layout_marginEnd="19dp"
+        android:onClick="girisYap"
+        android:text="Giriş Yap"
+        app:layout_constraintEnd_toStartOf="@+id/kaydolBtn"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordText" />
+
+    <Button
+        android:id="@+id/kaydolBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="kaydol"
+        android:text="Kaydol"
+        app:layout_constraintBaseline_toBaselineOf="@+id/girisYapBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/girisYapBtn" />
+
+    <EditText
+        android:id="@+id/emailAddressText"
+        android:layout_width="211dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="142dp"
+        android:ems="10"
+        android:hint="Email Adresinizi Giriniz"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/passwordText"
+        android:layout_width="212dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="66dp"
+        android:ems="10"
+        android:hint="Şifrenizi Giriniz"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="@+id/emailAddressText"
+        app:layout_constraintTop_toBottomOf="@+id/emailAddressText" />
+</androidx.constraintlayout.widget.ConstraintLayout>
